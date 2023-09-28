@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo img{
+    cursor: pointer;
+    padding-top: 12px;
+    width: 386px;
+    height: 52px;
+    padding-left: 5px;
+}
+
+.item ul{
+    display: flex;
+    padding-top: 24px;
+    margin-right: 240px;
+}
+
+.item ul li{
+    margin-left: 39px;
+    list-style-type:none;
+}
+
+.item ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18;  
+}
+
+.feature img{
+    cursor: pointer;
+    margin-right: 39px; 
+    height: 54px;
+    width:183px;
+    padding-top: 6px;   
+}
+
+.con1{
+    height: 600px;
+    width: 100%;
+    
+}
+
+.con2{
+    width:100%;
+    height:1000px;
+    display: flex;
+    margin-bottom: -23px;
+}
+
+.phone{
+    display: flex;
+}
+
+.img1 img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.img2{
+    margin-top: 5px;
+    margin-left: 11px;
+    margin-right: 5px;
+    width: 420px;
+    background-color: #fff8ca !important;
+    height:465px;
+}
+
+.img2 img{
+    padding-left: 60px;
+    height:370px;
+    width:auto;
+    cursor: pointer;
+}
+
+.desc{
+    color: #111;
+    font-weight: 545;
+    padding-left: 20px;
+}
+
+.desc1{
+    color:#111;
+    font-weight:300;
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
+.img3 img{
+    padding-left: 60px;
+    height:370px;
+    width:auto;
+    cursor: pointer;
+}
+
+.ip13p{
+    background-color: rgba(211,195,222,0.86) !important;
+}
+
+
+.ip13{
+    background-color:#b9d8b6 !important;
+}
+.ip14{
+    background-color: rgba(192,201,232,0.93) !important;
+}
+
+
+.img4{
+    margin-top: 4px;
+    background-color: #111;
+    margin-left: 13px;
+    width: 910px;
+    height: 936px;
+}
+
+#watch{
+    padding-left: 55px;
+    height: 312px;
+    width: 848px;
+}
+
+#watchlogo{
+    padding-top: 19px;
+    padding-left: 35.5%;
+    height:116px;
+}
+
+.img4 h1{
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 28px;
+    font-weight: 500;
+    text-align: center;
+    color:#fff;
+    word-spacing: 7px;
+}
+
+.img4 h2{
+    color:#fff;
+    word-spacing: 10px;
+    font-weight: 400;
+    padding-left: 112px;
+    line-height: 30px;
+}
+
+.img4 p {
+    color: #fff;
+    padding-left: 41px;
+    word-spacing: 3px;
+    line-height: 36px;
+}
+
+#hello2{
+    padding-left:250px;
+}
+
+.butt{
+    margin-top: 100px;
+    margin-left: 43%;
+    height:68px;
+    width:160px;
+    border: solid #fff 2px;
+    border-radius: 35px;
+    background-color: #111;
+    transition: 0.3s;
+}
+
+.butt a{
+    padding: 20px;
+    color:#fff;
+    text-decoration: none;
+    transition: 0.3s;
+}   
+
+.butt:hover{
+    background-color: #fff;
+}
+
+.butt a:hover{
+    color:rgb(123, 121, 121);
+}
+
+.fa-circle-right {
+    margin-right: 11px;
+    width: auto;
+    height: 30px;
+    padding-top: 22px;
+} 
+
+.black{
+    height:66px;
+    width:166px;
+    border: solid #212529 2px;
+    border-radius: 35px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-left: 19.5%;
+    transition: 0.3s;
+}
+.black a{
+    padding: 28px;
+    color:#212529;
+    text-decoration: none;
+}
+
+.black:hover{
+    background-color: #212529;
+}
+.black a:hover{
+    color:#fff;
+}
+.maccontainer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 100%;
+}
+
+.infologo{
+    margin-left: 20px;
+}
+.info h1{
+    font-weight: 400;
+    padding-top: 134px;
+    margin-left: -306px;
+    word-spacing: 3px;
+}
+
+.info img {
+    width: 65px;
+    position: relative;
+    margin-left: -40px;
+    left: 20px;
+    height: 35px;
+}
+
+.heading{
+    font-weight: 400;
+    padding-left: 200px;
+    padding-top: 90px;
+}
+
+.mac img {
+    padding-right: 251px;
+    padding-top: 59px;
+    padding-bottom: 200px;
+    width: auto;
+    height: 447px;
+}
+
+.information {
+    font-weight: 400;
+    word-spacing: 2.5px;
+    padding-top: 4%;
+    padding-left: 198px;
+    line-height: 35px;
+    color: #212529;
+}
+
+.section3{
+    margin-top: -100px;
+    width:100%;
+    display: flex;    
+}
+
+.macpc{
+    width:50%;
+    background-color: #DCF3DA;
+    display: flex;
+}
+
+.prolap{
+    width:50%;
+    background-color: #000000;
+}
+
+#macpcinfo{
+    padding-left: 65px;
+    padding-top: 30px;
+}
+
+#machead{
+    padding-left: 63px;
+    padding-top: 165px;
+}
+
+.macpcimg img{
+    height:625px;
+    width:auto;
+    padding-left: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#macpcbutt {
+    background-color: #DCF3DA;
+    margin-top: 60px;
+    margin-left: 58px;
+    height:62px;
+    width: 150px;
+}
+
+#macpcbutt:hover{
+    background-color: #212529;
+}
+.proimg{
+    margin-top: 15px;
+}
+.proimg img{
+    /* padding-top: 374px; */
+    width: 895px;
+    height: 423px;
+}
+
+#probutt{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+
+#proh2{
+    padding-top: 29px;
+    padding-left: 37%;
+    font-weight: 400;
+    color:#fff;
+}
+#proh1{
+    padding-top: 10px;
+    padding-left: 33%;
+    font-weight: 400;
+    color:#fff;
+}
+
+#proin{
+    padding-top: 21px;
+    padding-left: 66px;
+    color:#fff;
+}
+
+.ipad{
+   margin-top: 30px; 
+   display: flex;
+}
+
+.ipadimg{
+    margin-bottom: 50px;
+    margin-left: 288px;
+}
+
+.ipadimg img{
+    width:auto;
+    height:510px;
+}
+
+#ipadh1{
+    padding-top: 25px;
+    padding-left: 55%;
+    font-weight: 400;
+}
+
+.ipadinfo img{
+    width:auto;
+    height: 125px;
+    padding-left: 47%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.ipadp{
+    padding-top: 03px;
+}
+
+#ipadbutt{
+    margin-top: 27px;
+    margin-left: 53.5%;
+}
+
+.other{
+    width:100%;
+    display: flex;
+}
+
+.pad{
+    width:50%;
+    background-color: #000000;
+    padding-bottom: 25px;
+}
+
+.pad1{
+    width:25%;
+    background-color: #fa6c44;
+    padding-top: 50px;
+    /* padding-bottom: 25px; */
+}
+
+.airpod{
+    width:25%;
+    background-color: #212529;
+    padding-top: 50px;
+    /* padding-bottom: 25px; */
+}
+
+.pad img{
+    padding-top: 41px;
+    padding-left: 55px;
+    width:auto;
+    height: 275px;
+    padding-bottom: 45px;
+}
+
+.pad1 img{
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+.airpod img{
+    padding-top: 29px;
+    padding-left: 91px;
+}
+
+.other1{
+    padding-left: 100px;
+    margin-bottom: 6px;
+    color:#DCF3DA;
+    padding-bottom: 3px;
+}
+
+
+.bu11:hover{
+    background-color: #fff;
+    color:#212529;
+}
+
+.mmm{
+    height:500px;
+}

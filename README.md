@@ -1,4 +1,4 @@
-# E-learning
+# ivenus
 This is a reference to an E-learning website with just HTML and CSS
 
 #  Precious IT Services 🚀
@@ -8,7 +8,7 @@ This is a reference to an E-learning website with just HTML and CSS
 Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
 Builds With :
-`HTML, CSS, Javascript,PHP`
+`HTML, CSS, Javascript`
 
 This repository is open to all members of the GitHub community. Any member can contribute to this project.
 
